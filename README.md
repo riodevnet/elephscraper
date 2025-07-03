@@ -152,29 +152,6 @@ $scraper->filter(
 >
 > Output keys auto-normalized to original selector.
 
----
-
-## 🧰 Project Structure (recommended)
-
-```
-elephscraper/
-├── ElephScraper.php
-├── test.php
-├── composer.json
-└── vendor/
-```
-
----
-
-## 🧪 Testing
-
-Test using:
-
-- Built-in `test.php` script
-- Any unit testing library like PHPUnit
-
----
-
 ## 🤝 Contributing
 
 Found a bug? Want to add features?
@@ -184,7 +161,7 @@ Open an issue or create a pull request!
 
 ## 📄 License
 
-MIT License © 2025 — [Your Name or Team]
+MIT License © 2025 — ElephScraper
 
 ---
 
