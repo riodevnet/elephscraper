@@ -34,8 +34,9 @@ composer require riodevnet/elephscraper
 ```php
 <?php
 
-require_once 'vendor/autoload.php';
-require_once 'ElephScraper.php';
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Riodevnet\Elephscraper\ElephScraper;
 
 $scraper = new ElephScraper("https://example.com");
 
