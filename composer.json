@@ -1,0 +1,23 @@
+{
+    "name": "riodevnet/elephscraper",
+    "description": "ElephScraper is a lightweight and PHP-native web scraping toolkit built using Guzzle and Symfony DomCrawler. It provides a clean and powerful interface to extract HTML content, metadata, and structured data from any website.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Riodevnet\\Elephscraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rio Dev",
+            "email": "my.riodev.net@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^7.3"
+    }
+}
